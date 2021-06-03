@@ -18,14 +18,12 @@
     border: 2px solid rgba(78, 3, 255, 0.541);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
-  
   </style>
 
 <div style='position: fixed; top: 10px; width:100%; text-align: center; z-index: 1;'>
   <button onclick= "window.location.href = 'index.html';" class="button" id="btn1" >Star</button>
   <button onclick= "window.location.href = 'modelo.html';" class="button" id="btn2" >Dino</button>
   <button onclick= "window.location.href = 'movimiento.html';" class="button" id="btn3" >Table</button>
- 
 </div>
   
 
@@ -33,16 +31,14 @@
 <body style='margin : 0px; overflow: hidden;'>
 
   <a-scene embedded arjs>
-    
     <a-entity >
         <a-entity fbx-model="src: url(estrella.fbx);" scale="0.1 0.1 0.1" crossOrigin="anonymous">
-        <a-animation attribute="rotation" to="160 220 100" dur="3000" easing="linear" repeat="indefinite"></a-animation>
+
       </a-entity>
-   <!--   <a-entity fbx-model="src: url(estrella.fbx);"scale="0.1 0.1 0.1"></a-entity>-->
-  <!-- <a-entity fbx-model="src: url(dino.fbx);"scale="0.001 0.001 0.001"></a-entity> -->
       <a-marker-camera preset="hiro"></a-marker-camera>
     </a-scene>
   
+    
       </body>
 
 
